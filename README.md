@@ -1,0 +1,2 @@
+# autohotkey
+scripts do autohotkey
