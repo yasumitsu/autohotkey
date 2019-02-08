@@ -1,0 +1,43 @@
+Gui, Add, Button,, Click
+
+Gui, Show,ym w200 h100
+
+
+
+[color=red]Gui, 2:Add, Button,, Click
+
+[color=red]Gui, 2:Show, y150 w200 h100
+
+return
+
+
+
+Buttonclick:
+
+  msgbox You clicked the first Gui
+
+Return
+
+
+
+GuiClose:
+
+  Gui , Submit
+
+Return
+
+
+
+[color=red]2[/color]Buttonclick:
+
+  msgbox You clicked the second Gui
+
+Return
+
+
+
+[color=red]2[/color]GuiClose:
+
+  [color=red]Gui, 2:[/color] Submit
+
+Return
